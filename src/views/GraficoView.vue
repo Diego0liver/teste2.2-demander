@@ -34,7 +34,7 @@ export default {
     //Obs: a API permite algumas requisições por dia por ser plano gratis
     const fetchData = async () => {
       const keyApi = 'VRGKGVH9HZRC94D7';
-      //const url = `https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=IBM&apikey=${keyApi}`;
+      const url = `https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=IBM&apikey=${keyApi}`;
 
       try {
         const response = await fetch(url, {

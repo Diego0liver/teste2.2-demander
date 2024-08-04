@@ -81,7 +81,7 @@ export default{
 
     <p>O <a href="/grafico" rel="noopener">grafico Bolsa de valores</a>
     mostra um grafico treemap dos valores mensais da bolsa de valores do IBM.</p>
-    <p>O <a href="/grafico" rel="noopener">grafico API interna</a>
+    <p>O <a href="/graficoApi" rel="noopener">grafico API interna</a>
     mostra um grafico treemp de uma API fake onde os dados podem ser editados, a tabela abaixo
     e os dados dessa API fake (Estou usando json-server para simular uma API).</p>
   </WelcomeItem>
