@@ -1,0 +1,19 @@
+{
+  "grafico": [
+    {
+      "valor": 11,
+      "titulo": "Casa",
+      "id": "43d0"
+    },
+    {
+      "valor": 20,
+      "titulo": "ibg",
+      "id": "ed45"
+    },
+    {
+      "id": "ad00",
+      "valor": 250,
+      "titulo": "Casas bahia"
+    }
+  ]
+}
