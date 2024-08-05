@@ -1,12 +1,7 @@
 {
   "grafico": [
     {
-      "valor": 11,
-      "titulo": "Casa",
-      "id": "43d0"
-    },
-    {
-      "valor": 20,
+      "valor": 240,
       "titulo": "ibg",
       "id": "ed45"
     },
@@ -14,6 +9,11 @@
       "id": "ad00",
       "valor": 250,
       "titulo": "Casas bahia"
+    },
+    {
+      "id": "23f2",
+      "valor": 233,
+      "titulo": "goog"
     }
   ]
 }

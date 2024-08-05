@@ -114,14 +114,14 @@
     };
 
     //Pegar ID por click no grafico 
-    const click = (config) => {
+    const click = (event, chartContext, config) => {
       const { dataPointIndex, seriesIndex } = config;
       const data = seriesData.value[seriesIndex].data[dataPointIndex];
       selectedData.value = data;
       form.value.valor = data.y;
       form.value.titulo = data.x;
       form.value.selectedId = data.id;
-      //console.log('Selected ID:', data.id);
+      console.log('Selected ID:', data.id);
 
       // Abrir modal bootstrap
       const modal = new bootstrap.Modal(document.getElementById('modal'));
